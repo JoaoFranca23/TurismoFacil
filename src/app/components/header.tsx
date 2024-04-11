@@ -7,37 +7,41 @@ export function Header() {
     { name: "Home", link: "/" },
     { name: "O que fazer em Foz", link: "#" },
     { name: "Contato", link: "/" },
-    { name: "Sobre nós", link: "/" },
   ];
 
   const [isOpen, setIsOpen] = useState(true);
 
   const handleOpen = () => setIsOpen((prev) => !prev);
   return (
-    <header className="md:flex items-center justify-between shadow-md w-full fixed top-0 left-0 py-4 md:px-10 px-7">
-      <div className="font-bold text-2xl cursor-pointer flex items-center text-gray-800 ">
-        Turismo Fácil
-      </div>
+    <header className="sticky top-0 h-[70px] shadow-xl text-2xl bg-white  ">
+      <div className="flex justify-between h-full items-center mx-12 lg:mx-32">
+        <div className="cursor-pointer">Turismo Facil</div>
 
-      <div
-        onClick={handleOpen}
-        className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden">
-        {isOpen ? <List /> : <X />}
+        <nav>
+          <div
+            onClick={handleOpen}
+            className="text-3xl cursor-pointer lg:hidden">
+            {isOpen ? <X /> : <List />}
+          </div>
+          <ul
+            className={`fixed h-0 p-0 
+            flex  flex-col lg:flex-row lg:items-center lg:relative gap-12 lg:p-0 lg:top-0 
+              ease-in left-0 transition-all duration-500 mx-12 lg:mx-16  ${
+                isOpen ? "top-20 opacity-100" : "top-[-490px] "
+              } lg:opacity-100  
+      `}>
+            {Links.map((link: any) => (
+              <li key={Links.name} className="">
+                <a
+                  href={link.link}
+                  className="text-gray-800 hover:text-gray-300 duration-500 ">
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </div>
-
-      <ul
-        className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in
-       ${isOpen ? "top-20 opacity-100" : "top-[-490px]"} md:opacity-100 `}>
-        {Links.map((link: any) => (
-          <li key={Links.name} className="md:ml-8 text-xl md:my-0 my-7">
-            <a
-              href={link.link}
-              className="text-gray-800 hover:text-gray-400 duration-500">
-              {link.name}
-            </a>
-          </li>
-        ))}
-      </ul>
     </header>
   );
 }
