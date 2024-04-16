@@ -6,6 +6,7 @@ export default function Home() {
     <div className="max-w-[1980px] mx-auto ">
       <Header />
       <main>
+        <Banner></Banner>
         {/* <div>parcerias</div>
         <div>galerias</div>
         <div>precos</div>
