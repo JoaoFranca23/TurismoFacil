@@ -1,12 +1,15 @@
 export function Banner() {
   return (
-    <div
-      className=" bg-gradient-to-r from-blue-600 to-blue-200
-         h-[640px] xl:h-[840px] bg-center lg:bg-cover bg-no-repeat 
-      bg-fixed lg:rounded-bl-[290px] relative z-10 flex items-center justify-center">
-      <div className=" flex flex-col items-start  text-left mx-10 lg:mx-28 ">
-        <h1 className="text-6xl lg:text-8xl">Descubra Foz do Iguaçu</h1>
-        <p className="lg:text-5xl text-3xl ">
+    <div className="h-[540px] xl:h-[700px] flex justify-center items-center bg-color6">
+      <div
+        className="bg-[url('https://images.unsplash.com/photo-1524467128837-00f6644866d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxM3x8VG91cmlzbXxlbnwwfHx8fDE3MTA4OTA3NzV8MA&ixlib=rb-4.0.3&q=80&w=1080')]
+         opacity-30 bg-center lg:bg-cover bg-no-repeat 
+      bg-lg:rounded-bl-[290px] h-full w-full "></div>
+      <div className=" flex flex-col items-start gap-6 text-left mx-10 lg:mx-28 font absolute">
+        <h1 className="text-6xl lg:text-8xl text-color1">
+          Descubra Foz do Iguaçu
+        </h1>
+        <p className="lg:text-5xl text-3xl text-color1 ">
           Explore o melhor do turismo com roteiros exclusivos e personalizados.
         </p>
       </div>
