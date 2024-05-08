@@ -1,6 +1,6 @@
 export function Banner() {
   return (
-    <div className="h-[540px] xl:h-[700px] flex justify-center items-center bg-color6">
+    <div className="h-[540px] xl:h-[800px] flex justify-center items-center bg-color6">
       <div
         className="bg-[url('https://images.unsplash.com/photo-1524467128837-00f6644866d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxM3x8VG91cmlzbXxlbnwwfHx8fDE3MTA4OTA3NzV8MA&ixlib=rb-4.0.3&q=80&w=1080')]
          opacity-30 bg-center lg:bg-cover bg-no-repeat 
