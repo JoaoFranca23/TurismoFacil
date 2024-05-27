@@ -33,9 +33,7 @@ export default function Carousel() {
 
   return (
     <>
-      {/*<!-- Component: Testimonial carousel --> */}
       <div className="glide-09 relative w-full">
-        {/* <!-- Slides --> */}
         <div data-glide-el="track">
           <ul className="whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0 gap-36">
             <li>

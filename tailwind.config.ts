@@ -15,6 +15,7 @@ const config: Config = {
         color4: "#07ccff",
         color5: "#0ffff8",
         color6: "#47a2c36b",
+        colorbutton: "#515151",
       },
       animation: {
         "loop-scroll": "loop-scroll 5s linear infinite",
