@@ -3,8 +3,8 @@ import { Check } from "@phosphor-icons/react";
 export default function ContainerPrice(props: any) {
   return (
     <div>
-      <div className="flex justify-center items-center flex-wrap ">
-        <div className=" w-[30rem]  h-[42rem] border border-black rounded-md flex flex-col p-6 gap-6">
+      <div className="flex justify-center items-center flex-wrap w-full">
+        <div className=" lg:w-[30rem]  h-[42rem] border border-black rounded-md flex flex-col p-6 gap-6">
           <img
             className="object-cover w-full h-64 rounded-lg "
             src={props.image}></img>

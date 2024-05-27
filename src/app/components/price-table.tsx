@@ -2,9 +2,9 @@ import ContainerPrice from "./container-price";
 
 export default function PriceTable() {
   return (
-    <div className="flex flex-col items-center mx-10 lg:mx-28 gap-5">
+    <div className="flex flex-col items-center mx-10 lg:mx-28 gap-6">
       <h2 className="text-3xl lg:text-5xl">Tabela de preços</h2>
-      <div className="flex">
+      <div className="flex flex-wrap gap-3 lg:gap-0">
         <ContainerPrice
           title="Pacote Básico de City Tour"
           number="R$100"
