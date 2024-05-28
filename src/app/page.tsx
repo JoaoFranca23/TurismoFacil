@@ -1,4 +1,5 @@
 import { Banner } from "./components/banner";
+import Tourismdoubts from "./components/doubts";
 import { Gallery } from "./components/gallery";
 import { Header } from "./components/header";
 import { Partner } from "./components/partner";
@@ -13,6 +14,8 @@ export default function Home() {
         <Partner></Partner>
         <Gallery></Gallery>
         <PriceTable></PriceTable>
+        <Tourismdoubts></Tourismdoubts>
+
         {/* 
         <div>precos</div>
         <div>comentarios</div>
