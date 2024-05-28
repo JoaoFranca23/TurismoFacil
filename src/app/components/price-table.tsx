@@ -2,8 +2,10 @@ import ContainerPrice from "./container-price";
 
 export default function PriceTable() {
   return (
-    <div className="flex flex-col items-center mx-10 lg:mx-28 gap-6">
-      <h2 className="text-3xl lg:text-5xl">Tabela de preços</h2>
+    <div className="flex flex-col mx-10 lg:mx-28 gap-6">
+      <div>
+        <h2 className="text-3xl lg:text-5xl ">Tabela de preços</h2>
+      </div>
       <div className="flex flex-wrap gap-3 lg:gap-0">
         <ContainerPrice
           title="Pacote Básico de City Tour"
@@ -26,7 +28,7 @@ export default function PriceTable() {
           number="R$500"
           image="https://images.unsplash.com/photo-1619120238346-978e07731e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxMHx8VG91cmlzbXxlbnwwfHx8fDE3MTA4OTA3NzV8MA&ixlib=rb-4.0.3&q=80&w=1080"
           description="Viva experiências emocionantes e exclusivas."
-          includes="Gestão"
+          includes="Guia"
           per="por excursão"
           page="#"></ContainerPrice>
       </div>
