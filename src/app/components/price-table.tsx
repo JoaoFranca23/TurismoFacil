@@ -2,7 +2,7 @@ import ContainerPrice from "./container-price";
 
 export default function PriceTable() {
   return (
-    <div className="flex flex-col mx-10 lg:mx-28 gap-6">
+    <div className="flex flex-col mx-10 lg:mx-28 gap-6 mb-6">
       <div>
         <h2 className="text-3xl lg:text-5xl ">Tabela de preços</h2>
       </div>

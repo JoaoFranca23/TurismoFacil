@@ -2,9 +2,9 @@ import ContainerDoubts from "./container-doubts";
 
 export default function Tourismdoubts() {
   return (
-    <div className="flex flex-col py-12 lg:my-28  mx-10 lg:mx-28">
+    <div className="flex flex-col gap-9 lg:my-28  mx-10 lg:mx-28">
       <h2 className="text-3xl lg:text-5xl">Dúvidas sobre nossos serviços? </h2>
-      <div className="flex flex-col gap-11 lg:gap-1">
+      <div className="flex flex-col gap-11 lg:gap-0">
         <ContainerDoubts
           question="Quais são os principais destinos turísticos em Foz?"
           answer="Foz do Iguaçu possui diversos destinos turísticos populares, incluindo as Cataratas do iguaçu , Parque das aves e muitos outros."></ContainerDoubts>
