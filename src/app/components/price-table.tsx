@@ -2,34 +2,52 @@ import ContainerPrice from "./container-price";
 
 export default function PriceTable() {
   return (
-    <div className="flex flex-col mx-10 lg:mx-28 gap-6 mb-6">
+    <div className="flex flex-col mx-10 lg:mx-28 gap-9 mb-6 ">
       <div>
-        <h2 className="text-3xl lg:text-5xl ">Tabela de preços</h2>
+        <h2 className="text-3xl lg:text-5xl">
+          Passeios em <span className="font-medium">Foz do Iguaçu</span>
+        </h2>
       </div>
-      <div className="flex flex-wrap gap-3 lg:gap-0">
+      <div className="flex flex-wrap gap-4 lg:gap-2">
         <ContainerPrice
-          title="Pacote Básico de City Tour"
+          title="Circuito Cataratas Brasil"
           number="R$100"
-          image="https://images.unsplash.com/photo-1609137144813-7d9921338f24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHw4fHxUb3VyaXNtfGVufDB8fHx8MTcxMDg5MDc3NXww&ixlib=rb-4.0.3&q=80&w=1080"
-          description="Descubra os Principais pontos turísticos."
+          image="https://d2j6dbq0eux0bg.cloudfront.net/images/36944485/2829927040.jpg"
+          description="Descubra a grandiosidade das Cataratas do Iguaçu no lado brasileiro com o Circuito Cataratas Brasil."
           includes="Gestão"
-          per="por dia"
+          per="por Pessoa"
           page="#"></ContainerPrice>
         <ContainerPrice
-          title="Passeio Gastronômico Personalizado"
-          number="R$250"
-          image="https://images.unsplash.com/photo-1536698658763-878a02695d1c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxMXx8VG91cmlzbXxlbnwwfHx8fDE3MTA4OTA3NzV8MA&ixlib=rb-4.0.3&q=80&w=1080"
-          description="Experimente a culinária local autêntica."
+          title="Parque das Aves"
+          number="R$80"
+          image="https://www.loumarturismo.com.br/_next/image?url=https%3A%2F%2Fassets.loumarturismo.com.br%2Fpasseios%2Fimagens%2F00014%2F3432-parquedasavesemfoz.jpg&w=1920&q=75"
+          description="Explore a beleza exótica e a biodiversidade do Parque das Aves em Foz do Iguaçu com a Loumar Turismo."
           includes="Roterio"
-          per="por grupo"
+          per="por Pessoa"
           page="#"></ContainerPrice>
         <ContainerPrice
-          title="Pacote VIP de Aventura"
-          number="R$500"
-          image="https://images.unsplash.com/photo-1619120238346-978e07731e77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxMHx8VG91cmlzbXxlbnwwfHx8fDE3MTA4OTA3NzV8MA&ixlib=rb-4.0.3&q=80&w=1080"
-          description="Viva experiências emocionantes e exclusivas."
+          title="Personal Shopper no Paraguai"
+          number="R$49"
+          image="https://www.loumarturismo.com.br/_next/image?url=https%3A%2F%2Fassets.loumarturismo.com.br%2F%2Fpasseios%2Fimagens%2F00103%2F4030-comprenoparaguai.jpg&w=1920&q=75"
+          description="Desfrute de uma experiência de compras personalizada em Ciudad del Este com o passeio Compras no Paraguai."
           includes="Guia"
-          per="por excursão"
+          per="por Pessoa"
+          page="#"></ContainerPrice>
+        <ContainerPrice
+          title="City Tour Argentina"
+          number="R$130"
+          image="https://www.loumarturismo.com.br/_next/image?url=https%3A%2F%2Fassets.loumarturismo.com.br%2F%2Fpasseios%2Fimagens%2F00040%2F2027-citytournaargentina.jpg&w=1920&q=75"
+          description="Descubra a rica cultura e história de Puerto Iguazú com o City Tour Argentina."
+          includes="Guia"
+          per="por Pessoa"
+          page="#"></ContainerPrice>
+        <ContainerPrice
+          title="Circuito Marco das 3 Fronteiras "
+          number="R$120"
+          image="https://www.loumarturismo.com.br/_next/image?url=https%3A%2F%2Fassets.loumarturismo.com.br%2F%2Fpasseios%2Fimagens%2F00116%2F4055-pordosolemfoz.png&w=1920&q=75"
+          description="Descubra as atrações icônicas de Foz do Iguaçu com o Circuito Marco das 3 Fronteiras."
+          includes="Guia"
+          per="por Pessoa"
           page="#"></ContainerPrice>
       </div>
     </div>

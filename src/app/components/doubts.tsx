@@ -17,8 +17,8 @@ export default function Tourismdoubts() {
           question="Os serviços de turismo incluem alimentação?"
           answer="Embora nossos serviços não incluam alimentação, podemos fornecer recomendações de restaurantes locais e ajudar com reservas se necessário."></ContainerDoubts>
         <ContainerDoubts
-          question="Existe algum serviço relacionado a atravessia para a Argentina ou Paraguai??"
-          answer="Não temos esse tipo de serviço disponível."></ContainerDoubts>
+          question="Quais documentos preciso para realizar a atravessia para a Argentina ou Paraguai??"
+          answer="Não é necessário passaporte para visitar a esses países, basta apresentar o RG em bom estado de conservação e que permita identificar a foto do portador com facilidade, idealmente com menos de 10 anos da emissão; Documentos como carteiras profissionais e CNH, não são aceitos para entrar no país"></ContainerDoubts>
       </div>
     </div>
   );

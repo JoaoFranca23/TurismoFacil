@@ -13,7 +13,7 @@ export function Header() {
 
   const handleOpen = () => setIsOpen((prev) => !prev);
   return (
-    <header className="sticky top-0 h-[80px] shadow-xl text-2xl bg-white z-20 ">
+    <header className="sticky top-0 h-[80px] shadow-xl text-2xl bg-background z-20 ">
       <div className="flex justify-between h-full items-center mx-10 lg:mx-28">
         <a href="#" className="text-color1 hover:text-gray-300 duration-500">
           Turismo Facil

@@ -1,26 +1,30 @@
 "use client";
-import { Check } from "@phosphor-icons/react";
+import { CaretRight } from "@phosphor-icons/react";
 export default function ContainerPrice(props: any) {
   return (
     <div>
-      <div className="flex justify-center items-center flex-wrap w-full">
-        <div className=" lg:w-[34rem]  h-[42rem] border border-black rounded-md flex flex-col mx-px p-6 m gap-6">
-          <img
-            className="object-cover w-full h-64 rounded-lg "
-            src={props.image}></img>
+      <div className="lg:w-80  flex flex-col">
+        <img
+          className="object-cover w-full rounded-t-lg h-48 "
+          src={props.image}></img>
 
-          <p className="text-xl">{props.title}</p>
-          <div>
-            <p className=" text-3xl">{props.number}</p>
-            <p>{props.per}</p>
+        <div className="border-x border-b p-3 border-gray-200 outline-2 outline-gray-900 pt-6">
+          <div className="h-52 flex flex-col justify-between">
+            <div>
+              <h3 className="text-lg pb-4">{props.title}</h3>
+              <p>{props.description}</p>
+            </div>
+
+            <div className="flex items-center">
+              <span className=" text-2xl">{props.number}</span>/
+              <p>{props.per}</p>
+            </div>
           </div>
-          <button className="bg-colorbutton hover:bg-gray-500 text-white font-bold py-2 px-4 rounded items-center">
-            <a href={props.page}>Mais informações</a>
-          </button>
-          <p>{props.description}</p>
-          <div className="flex items-center gap-1">
-            <Check></Check>
-            <span>{props.includes}</span>
+          <div className="flex items-center rounded mt-4 p-2 text-button justify-center hover:bg-button hover:text-white">
+            <button className=" font-bold items-center ">
+              <a href={props.page}>Detalhes</a>
+            </button>
+            <CaretRight></CaretRight>
           </div>
         </div>
       </div>
