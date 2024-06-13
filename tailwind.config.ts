@@ -9,13 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        color1: "#13101c;",
-        color2: "#0e425e",
-        color3: "#0983af",
-        color4: "#07ccff",
-        color5: "#0ffff8",
-        color6: "#47a2c36b",
-        colorbutton: "#515151",
+        background: "#fffffe;",
+        headline: "#094067",
+        paragraph: "#5f6c7b",
+        button: "#007A73",
+        buttonText: "#fffffe",
+        secondary: "#90b4ce",
+        stronke: "#094067",
+        error: "#ef4565",
       },
       animation: {
         "loop-scroll": "loop-scroll 5s linear infinite",
