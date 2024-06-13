@@ -20,7 +20,7 @@ export default function ContainerPrice(props: any) {
               <p>{props.per}</p>
             </div>
           </div>
-          <div className="flex items-center rounded mt-4 p-2 text-button justify-center hover:bg-button hover:text-white">
+          <div className="flex items-center rounded mt-4 p-2  lg:text-button bg-button text-white lg:bg-white justify-center hover:bg-button hover:text-white">
             <button className=" font-bold items-center ">
               <a href={props.page}>Detalhes</a>
             </button>
