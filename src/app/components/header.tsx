@@ -5,8 +5,8 @@ import { List, X } from "@phosphor-icons/react";
 export function Header() {
   const Links: any = [
     { name: "Home", link: "/" },
-    { name: "O que fazer em Foz", link: "#" },
-    { name: "Contato", link: "/" },
+    { name: "O que fazer em Foz", link: "/o-que-fazer-em-foz" },
+    { name: "Contato", link: "contato" },
   ];
 
   const [isOpen, setIsOpen] = useState(true);
@@ -15,7 +15,7 @@ export function Header() {
   return (
     <header className="sticky top-0 h-[80px] shadow-xl text-2xl bg-background z-20 ">
       <div className="flex justify-between h-full items-center mx-10 lg:mx-28">
-        <a href="#" className="text-color1 hover:text-gray-300 duration-500">
+        <a href="/" className="text-color1 hover:text-gray-300 duration-500">
           Turismo Facil
         </a>
 
