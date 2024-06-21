@@ -8,11 +8,9 @@ export default function Tourismdoubts() {
         <ContainerDoubts
           question="Quais são os principais destinos turísticos em Foz?"
           answer="Foz do Iguaçu possui diversos destinos turísticos populares, incluindo as Cataratas do iguaçu , Parque das aves e muitos outros."></ContainerDoubts>
-
         <ContainerDoubts
           question="Quais são os serviços oferecidos para turistas em Foz?"
           answer="Oferecemos passeios guiados, transporte para pontos turísticos, reservas de hospedagem e assistência durante a estadia em Foz."></ContainerDoubts>
-
         <ContainerDoubts
           question="Os serviços de turismo incluem alimentação?"
           answer="Embora nossos serviços não incluam alimentação, podemos fornecer recomendações de restaurantes locais e ajudar com reservas se necessário."></ContainerDoubts>

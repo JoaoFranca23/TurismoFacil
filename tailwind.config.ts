@@ -16,7 +16,7 @@ const config: Config = {
         buttonText: "#fffffe",
         secondary: "#90b4ce",
         stronke: "#094067",
-        error: "#ef4565",
+        banner: "#00a2ae33",
       },
       animation: {
         "loop-scroll": "loop-scroll 5s linear infinite",
