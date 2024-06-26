@@ -3,7 +3,7 @@ import { CaretRight } from "@phosphor-icons/react";
 export default function ContainerPrice(props: any) {
   return (
     <div>
-      <div className="lg:w-80  flex flex-col">
+      <div className="lg:w-80 w-full flex flex-col">
         <img
           className="object-cover w-full rounded-t-lg h-48 "
           src={props.image}></img>
@@ -20,12 +20,14 @@ export default function ContainerPrice(props: any) {
               <p>{props.per}</p>
             </div>
           </div>
-          <div className="flex items-center rounded mt-4 p-2  lg:text-button bg-button text-white lg:bg-white justify-center hover:bg-button hover:text-white">
+          <a
+            href={props.page}
+            className="flex items-center rounded mt-4 p-2  lg:text-button bg-button text-white lg:bg-white justify-center hover:bg-button hover:text-white cursor-pointer">
             <button className=" font-bold items-center ">
-              <a href={props.page}>Detalhes</a>
+              <p>Detalhes</p>
             </button>
             <CaretRight></CaretRight>
-          </div>
+          </a>
         </div>
       </div>
     </div>

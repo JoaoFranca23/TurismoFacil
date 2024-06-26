@@ -4,11 +4,11 @@ import { Card } from "../components/card";
 
 export default function WhatToDo() {
   return (
-    <div className=" mt-10 ">
+    <div className=" my-10 pb-10 ">
       <BackBtn></BackBtn>
-      <div className="flex mt-10 ">
-        <div className="flex lg:justify-center lg:items-center  lg:flex-row flex-col-reverse p-7 justify-end w-full h-auto lg:h-[580px] bg-banner bg-[url('https://www.loumarturismo.com.br/bg-tempo-mercado.svg')] bg-no-repeat bg-right">
-          <div className="flex lg:mt-40 lg:overflow-visible overflow-y-hidden  ">
+      <div className="flex my-20 ">
+        <div className="flex lg:justify-center lg:items-center pb-28 lg:flex-row flex-col-reverse p-7 justify-end w-full h-auto lg:h-[580px] bg-banner bg-[url('https://www.loumarturismo.com.br/bg-tempo-mercado.svg')] bg-no-repeat bg-right">
+          <div className="flex lg:mt-40 lg:overflow-visible overflow-y-hidden overscroll-y-hidden ">
             <div className="flex flex-row lg:flex-col   ">
               <Card
                 title="Cataratas do Iguaçu"

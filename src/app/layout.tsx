@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Saira } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { Header } from "./components/header";
 
-const saira = Saira({
-  weight: ["300", "400", "500", "600"],
+const montserrat = Montserrat({
+  weight: ["300", "400", "500", "600", "800"],
   subsets: ["latin"],
 });
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt">
-      <body className={saira.className}>
+      <body className={montserrat.className}>
         <Header /> {children}
       </body>
     </html>
