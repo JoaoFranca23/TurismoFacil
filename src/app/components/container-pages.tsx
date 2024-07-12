@@ -6,7 +6,7 @@ export function ContainerPages(props: any) {
           <img
             src={props.image}
             alt=""
-            className="h-[630px] rounded-lg
+            className="lg:h-[630px] rounded-lg
 
 "
           />

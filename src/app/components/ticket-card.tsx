@@ -5,9 +5,9 @@ import { TicketTime } from "./ticket-time";
 
 export function TicketCard(props: any) {
   const data = new Date();
-  const hour = String(data.getHours() + 1);
-  const hour2 = String(data.getHours() + 3);
-  const hour3 = String(data.getHours() + 5);
+  const hour = String(data.getHours() - 5);
+  const hour2 = String(data.getHours() - 3);
+  const hour3 = String(data.getHours() - 1);
 
   const day = String(data.getDate()).padStart(2, "0");
   const tomorrow = String(data.getDate() + 1).padStart(2, "0");
@@ -17,7 +17,7 @@ export function TicketCard(props: any) {
     <div>
       <div>
         <div>
-          <div className=" lg:w-[450px] w-[350px] h-[630px] lg:mb-0 mb-10 z-10 bg-blue-900 rounded-3xl">
+          <div className=" lg:w-[450px] w-[330px] h-[630px] lg:mb-0 mb-10 z-10 bg-blue-900 rounded-3xl">
             <div className="flex flex-col">
               <div className="bg-white relative drop-shadow-2xl  rounded-3xl p-4 m-4">
                 <div className="flex-none sm:flex">

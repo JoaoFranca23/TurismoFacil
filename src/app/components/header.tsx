@@ -6,7 +6,7 @@ export function Header() {
   const Links: any = [
     { name: "Home", link: "/" },
     { name: "O que fazer em Foz", link: "/o-que-fazer-em-foz" },
-    { name: "Contato", link: "contato" },
+    { name: "Contato", link: "/" },
   ];
 
   const [isOpen, setIsOpen] = useState(true);
